@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-09T06:05:31.632Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="dWLy8SjKWrgTjis4OfiA" version="14.7.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-09T06:13:43.903Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="3Bi-rA06_aaQvp9jc8B2" version="14.7.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2771" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -186,15 +186,11 @@
         <mxCell id="NdgNbe7IbOkZQ9Q6po2j-29" value="&lt;br&gt;&lt;b&gt;单元格配置说明：&lt;/b&gt;&lt;br&gt;1.newCells(所有行子格或者列子格)&lt;br&gt;2.BlankCell(没有关系的单元格)&lt;br&gt;3.Place(占位单元格主要是针对父格)&lt;br&gt;4.IncreaseSpan(该单元格要扩展的单元格)" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-750" y="-480" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NdgNbe7IbOkZQ9Q6po2j-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NdgNbe7IbOkZQ9Q6po2j-31" target="NdgNbe7IbOkZQ9Q6po2j-35">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-600" y="-340" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="NdgNbe7IbOkZQ9Q6po2j-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NdgNbe7IbOkZQ9Q6po2j-31" target="NdgNbe7IbOkZQ9Q6po2j-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="NdgNbe7IbOkZQ9Q6po2j-31" value="初始化context(其中包括配置好的单元格放到待执行的Map中、初始化report)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-740" y="-373.75" width="120" height="66.25" as="geometry" />
+          <mxGeometry x="-660" y="-373.75" width="120" height="66.25" as="geometry" />
         </mxCell>
         <mxCell id="NdgNbe7IbOkZQ9Q6po2j-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="NdgNbe7IbOkZQ9Q6po2j-34" target="NdgNbe7IbOkZQ9Q6po2j-41">
           <mxGeometry relative="1" as="geometry" />
@@ -278,6 +274,9 @@
         </mxCell>
         <mxCell id="NdgNbe7IbOkZQ9Q6po2j-63" value="无扩展" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1036.25" y="-420" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NdgNbe7IbOkZQ9Q6po2j-87" value="&lt;font style=&quot;font-size: 18px&quot;&gt;&lt;br&gt;&lt;b&gt;单元格渲染分为两部分：&lt;/b&gt;&lt;br&gt;1.组装配置&lt;br&gt;2.复制单元&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1420" y="-453.75" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
